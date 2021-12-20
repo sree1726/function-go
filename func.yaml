@@ -1,7 +1,7 @@
 name: function-go
 namespace: ""
 runtime: go
-image: ""
+image: docker.io/shashankft/function-go:latest
 imageDigest: ""
 builder: gcr.io/paketo-buildpacks/builder:base
 builders:
@@ -20,3 +20,4 @@ envs: []
 annotations: {}
 options: {}
 labels: []
+created: 2006-01-02T15:04:05Z
