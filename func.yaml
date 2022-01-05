@@ -1,8 +1,8 @@
 name: function-go
 namespace: ""
 runtime: go
-image: docker.io/shashankft/function-go:latest
-imageDigest: ""
+image:
+imageDigest:
 builder: gcr.io/paketo-buildpacks/builder:base
 builders:
   base: gcr.io/paketo-buildpacks/builder:base
