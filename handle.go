@@ -11,7 +11,7 @@ import (
 func Handle(ctx context.Context, res http.ResponseWriter, req *http.Request) {
 	res.Header().Add("Content-Type", "text/plain")
 
-	_, err := fmt.Fprintf(res, "OK\n")
+	_, err := fmt.Fprintf(res, "Hello developer\n")
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error or response write: %v", err)
 	}
