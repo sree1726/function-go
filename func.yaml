@@ -1,23 +1,5 @@
+specVersion: 0.35.0
 name: function-go
-namespace: ""
 runtime: go
-image:
-imageDigest:
-builder: gcr.io/paketo-buildpacks/builder:base
-builders:
-  base: gcr.io/paketo-buildpacks/builder:base
-  default: gcr.io/paketo-buildpacks/builder:base
-  full: gcr.io/paketo-buildpacks/builder:full
-buildpacks:
-- paketo-buildpacks/go-dist
-- ghcr.io/boson-project/go-function-buildpack:tip
-healthEndpoints:
-  liveness: /health/liveness
-  readiness: /health/readiness
-volumes: []
-buildEnvs: []
-envs: []
-annotations: {}
-options: {}
-labels: []
-created: 2006-01-02T15:04:05Z
+created: 2025-03-03T08:02:35.1676207Z
+
